@@ -11,7 +11,7 @@ cd root-html
 npm i
 npm start
 ```
-Now open to root-html url, which is usually http://localhost:5000
+Now open the root-html file in a browser tab, which is usually http://localhost:5000
 
 Notice how you'll get failed requests to http://localhost/info. The requests *should* be to
 http://localhost:8080/info. Note that if you change the `start` command in `app` to specify
